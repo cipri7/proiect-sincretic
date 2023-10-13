@@ -1,5 +1,5 @@
-#Metode Avansate de Programare
-##*Proiect Sincretic*
+# Metode Avansate de Programare
+## *Proiect Sincretic*
 
 ***Tower of Hanoi Application with Dockerization***
 
