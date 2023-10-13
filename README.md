@@ -33,5 +33,12 @@
 - Pushed the Docker image to Docker Hub repository using the docker push command. ```docker push vciprian/hanoi-towers:latest```
 
 8. **How to run the Docker image**
-    - Docker pull command ```docker pull vciprian/hanoi-towers:latest```
-    - Enjoy!
+- Docker pull command ```docker pull vciprian/hanoi-towers:latest```
+- Enjoy!
+
+
+*Documentation and inspiration*
+- [Git Basics](https://www.theodinproject.com/lessons/foundations-git-basics)
+- [Docker Video Tutorial](https://www.youtube.com/watch?v=pTFZFxd4hOI&ab_channel=ProgrammingwithMosh)
+- [Docker Documentation](https://docs.docker.com/engine/reference/builder/)
+- [Hanoi Towers Explanation](https://www.youtube.com/watch?v=PGuRmqpr6Oo&ab_channel=Numberphile)
