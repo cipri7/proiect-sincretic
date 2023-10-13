@@ -14,8 +14,7 @@ void Hanoi(int n, char source, char aux, char destination){
 
 int main(){
     int n;
-    printf("\nHanoi Towers\n");
-    printf("Set number of disks: ");
+    printf("\nHanoi Towers\nSet number of disks: ");
 
     do{
         scanf("%d", &n);
