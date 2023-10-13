@@ -16,7 +16,11 @@ int main(){
     int n;
     printf("\nHanoi Towers\n");
     printf("Set number of disks: ");
-    scanf("%d", &n);
+
+    do{
+        scanf("%d", &n);
+    }while(!(n>0 && n<8));
+    
     printf("\n");
 
     Hanoi(n, 'A', 'B', 'C');
