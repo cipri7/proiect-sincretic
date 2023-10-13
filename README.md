@@ -32,5 +32,6 @@
 - Tagged the Docker image with my Docker Hub username and repository name. ```docker tag hanoi-towers:latest vciprian/hanoi-towers:latest```
 - Pushed the Docker image to Docker Hub repository using the docker push command. ```docker push vciprian/hanoi-towers:latest```
 
-8. **Had fun developing and implementing it**
+8. **How to run the Docker image**
+    - Docker pull command ```docker pull vciprian/hanoi-towers:latest```
     - Enjoy!
