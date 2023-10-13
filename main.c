@@ -15,7 +15,8 @@ void Hanoi(int n, char source, char aux, char destination){
 int main(){
     int n;
     printf("\nHanoi Towers\nSet number of disks: ");
-
+    fflush(stdout);
+    
     do{
         scanf("%d", &n);
     }while(!(n>0 && n<8));
