@@ -13,9 +13,13 @@ void Hanoi(int n, char source, char aux, char destination){
 }
 
 int main(){
-    printf("Hanoi Towers\n");
+    int n;
+    printf("\nHanoi Towers\n");
+    printf("Set number of disks: ");
+    scanf("%d", &n);
+    printf("\n");
 
-    Hanoi(3, 'A', 'B', 'C');
+    Hanoi(n, 'A', 'B', 'C');
 
 
     return 0;
